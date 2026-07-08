@@ -1,0 +1,202 @@
+/*main shortcut*/
+#main_shortcut{
+  padding: 80px 0px;
+  padding: 80px 0px 55px 0px;
+  /*background: rgb(0, 102, 101);*/
+}
+
+.shortcut_bg{
+  background-image: url('/img/HPE/shortcut/layout_bg.jpg');
+  /*width: 100vw;*/
+  /*height: 100vh;*/
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+.iconbox{
+  background: rgba(255, 255, 255, 1);
+  /*transition: transform .4s ease;*/
+  transition: transform 1s, filter 1s ease-in-out;	
+  height: 150px;
+  width: 150px;
+  
+  /* border-radius: 50%; */
+  border-radius: 10px;
+  
+  margin: auto;
+  margin-bottom: 120px;	
+  /*margin-bottom: 70px;*/
+  
+  
+/*	
+  background: rgba(0, 0, 0, 0.0);
+  height: 106px;
+  width: 338px;
+  margin-bottom: 25px;	
+  border-radius: 4px;*/		
+}
+
+.iconbox:focus{
+  background: #878787; 
+  /* @J:remove button border */
+  /* border-color: #878787;
+border: 0.5px solid #000; */ 
+border: 2px solid #FFFFFF;
+outline: 2px solid #006400;
+  color: black; 
+}
+
+/* @J:06/02 :Showing 3 Icons in a row for Mobile device  
+@media only screen and (max-width: 400px){
+	.shortcut_bg .container{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.shortcut_bg .container .col-4 {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.shortcut_fontstyle_1{
+		font-size:0.7rem;
+	}
+}
+*/
+
+
+.iconbox:hover {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 1);	
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.5);	
+  transform: scale(1.2);	
+  /*transform: translateY(-10px);*/
+	
+ color: #151515;
+  transition: ease-in-out 0.3s;
+}
+.iconbox_photo{
+  position: relative;
+  text-align: left;	
+  height: 100%;	
+
+  /*	  
+  margin-left: 20px;
+  padding-top: 20px;
+  */
+  margin-left: 19px;
+  padding-top: 19px;
+  	
+}
+
+.iconbox_photo img{
+  width: 95px;
+  margin: 1vh;
+  margin-bottom: 40px;
+}
+
+.iconbox_text{
+  /*position: absolute;
+  display: contents;*/
+  /* height: 100%; */
+  /*display : flex;*/
+  align-items : center;
+  padding-top: 5px;
+  margin-left: -83px;	
+}
+
+.text_on_right{
+  /*float: left;	*/
+}
+.shortcut_fontstyle_1{
+  font-weight: 600;
+  /*color: #036060;*/
+  color: white;
+  width: 280px;
+  text-align: center;
+  text-decoration: none;
+
+  /* @J:06/02/2023 */
+  /* text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 1px 0 #000; */
+  font-size: 1.35rem;
+  
+}
+.shortcut_link:hover{
+  text-decoration: none;	
+} 
+
+.shortcut_fontstyle_2{
+  font-weight: 600;
+  color: #036060;
+  width: 280px;		
+  text-align: center;	
+}
+.shortcut_fontstyle_3{
+  font-weight: 600;
+  color: #034c82;
+  width: 280px;		
+  text-align: center;	
+}
+.shortcut_fontstyle_4{
+  font-weight: 600;
+  color: #034c82;
+  width: 280px;		
+  text-align: center;	
+}
+.shortcut_fontstyle_5{
+  font-weight: 600;
+  color: #4c275c;
+  width: 280px;		
+  text-align: center;	
+}
+.shortcut_fontstyle_6{
+  font-weight: 600;
+  color: #4c275c;
+  width: 280px;		
+  text-align: center;
+}
+.shortcut_fontstyle_7{
+  font-weight: 600;
+  color: #4c275c;
+  width: 280px;	
+  text-align: center;
+}
+.shortcut_fontstyle_8{
+  font-weight: 600;
+  color: #a62e2a;
+  width: 280px;	
+  text-align: center;	
+}
+.shortcut_fontstyle_9{
+  font-weight: 600;
+  color: #a62e2a;	
+  text-align: center;	
+}
+.shortcut_fontstyle_10{
+  font-weight: 600;
+  color: #663b33;	
+}
+.shortcut_fontstyle_11{
+  font-weight: 600;
+  color: #663b33;	
+}
+.shortcut_fontstyle_12{
+  font-weight: 600;
+  color: #976600;	
+}
+.shortcut_fontstyle_13{
+  font-weight: 600;
+  color: #976600;	
+}
+.shortcut_fontstyle_14{
+  font-weight: 600;
+  color: #000000;	
+}
+.shortcut_fontstyle_15{
+  font-weight: 600;
+  color: #000000;	
+}
+
+/* @J:24/02/2023 */
+.shortcutIconImage {
+	border-radius: 12px;	
+}

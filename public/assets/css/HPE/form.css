@@ -1,0 +1,94 @@
+.table_style{
+	-webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+	margin: 10px 0 50px 0;
+	font-size: 1rem;
+}
+.form_legend_style{
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+.border_margin_style{
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+.border{
+	border: 1px #d7d7d7;
+}
+
+.form_line_spacing{
+	padding: 10px 0px;
+	/*font-size: 1rem;*/
+	line-height: 25px;
+}
+
+.label_style{
+	background: #fff3cd;
+	margin-bottom: 0rem;
+}
+
+.form_link_text{
+	font-size: 1rem;
+	margin: 5px 0px;
+}
+.formtext_2{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.inside_border_margin_style{
+	border: 1.5px solid #d4b461!important;
+	margin: 15px 15px;
+    padding: 15px 0px;
+}
+
+.outer_border_margin_style{
+	border: 1.5px solid #d4b461!important;
+	margin: 15px 0px;
+    padding: 15px 15px;
+}
+
+/*Pagination*/
+
+.pagination_style li:hover a{
+  color: #fdfdfd;
+  background-color: rgba(209,183,109,1);
+  border: solid 1px rgba(209,183,109,1);
+}
+
+.pagination_style li.active a {
+  color: #fdfdfd;
+  background-color: #1d1f20;
+  border: solid 1px #1d1f20;
+}
+
+.pagination_style li a:focus,.pagination_style li a:active {
+   box-shadow: none;
+}
+
+.pagination_style li a {
+  border: solid 1px #d7d7d7;
+  border-radius: 0.2rem;
+  color: #7d7d7d;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  padding: 0.5rem 0.9rem;
+}
+.page-link .pagination_style li a {
+	color: rgba(209,183,109,1);
+}
+/*Pagination end*/
+
+.form_unbold{
+	font-weight: 400;
+}
+.wnl_form_style{
+	font-family: Lato,sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	
+}
