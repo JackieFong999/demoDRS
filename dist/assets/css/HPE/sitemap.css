@@ -1,0 +1,71 @@
+.sitemap_bg{
+  /*background: #e5df9b;	*/	
+  /*background-image: url('http://116.92.227.22/demo/c_and_e/photo/sitemap_bg.jpg');*/
+  
+  /* HPE@ background: url('http://116.92.227.22/demo/c_and_e/photo/sitemap_bg.jpg'); */
+  background: url('/img/HPE/sitemap_bg.jpg');
+  
+  /*width: 100vw;*/
+  /*height: 100vh;*/
+  	
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;	
+}
+.card-header .title {
+    font-family: Lato,sans-serif;
+    font-size: 1.375rem;
+    color: #000;
+	font-weight: 600;
+}
+.card-header .accicon {
+  float: none;
+  font-size: 20px;  
+  width: 1.2em;
+}
+.card-header{
+  cursor: pointer;
+  border-bottom: none;
+}
+.card{
+  border: 0px solid #ddd;
+  background-color: rgba(0,0,0,.0);	
+}
+.card-body{
+  border-top: 0px solid #ddd;
+  text-align: left;
+}
+.card-header:not(.collapsed) .rotate-icon {
+  transform: rotate(180deg);
+}
+.accordion{
+  width: 100%
+}
+.card-header{
+  background-color: rgba(0,0,0,.0);	
+}
+.accordion>.card>.card-header {
+    border-radius: 0;
+    margin: 25px 0;
+}
+.sitemap_box{
+    vertical-align: top;
+    display: inline-block;
+    display: inline;
+}
+.sitemap_text li{
+	margin: 20px 0 20px -20px;
+	list-style: disc;
+	font-size: 16px;
+}
+
+
+/* 27/02/2023 : Testing  
+.sitemap_text a:hover{
+	color: black;
+	font-weight: bold;
+    text-decoration: none;
+}
+*/
+
+

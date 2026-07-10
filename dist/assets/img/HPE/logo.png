@@ -1,0 +1,86 @@
+﻿<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>404 Page not Found</title>	
+
+	<style>
+		.container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+		
+		.border_goldern {
+			border : #a6c9e2 solid 1px;
+			padding : 10px;
+			position : relative;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			border: 1.5px solid #d4b461!important;
+			margin: 10px 0px;
+    		padding: 15px 15px;
+    		background-color:lemonchiffon;
+		}
+		.shortcut_fontstyle_1{
+		  font-weight: 600;
+		  /*color: #036060;*/
+		  color: #fb7185;
+		  width: 280px;
+		  text-align: center;
+		  text-decoration: none;
+		  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 1px 0 #000;
+		  
+		}		
+	</style>
+</head>
+<body>
+	
+		<div>
+			<a href="/" target="_self">
+		    			<img 	src="/error/full_logo.jpg"
+		    					height = "103" width = "704.66" border="0" 
+		    					alt="The Dealers in Precious Metals and Stones Registration System" 
+		    					title="The Dealers in Precious Metals and Stones Registration System" />
+			</a>
+		</div>
+		<br>
+		<div class="border_goldern border">
+			<H3 style="color:red; margin-top:5px; margin-bottom:5px;">404 Page not Found</H3>
+			The page you requested was not found.   
+			<br>For enquiries, please contact C&amp;ED offices at the following addresses and contact numbers:
+			<br aria-hidden="true">
+			<br aria-hidden="true">DPMS Supervision Bureau,
+			<br aria-hidden="true">Customs and Excise Department
+			<br aria-hidden="true">Unit 3501, 35/F, Skyline Tower, 39 Wang Kwong Road,
+			<br aria-hidden="true">Kowloon Bay, Kowloon
+			<br aria-hidden="true">
+			<br aria-hidden="true">Tel : (852) 3580 1483 / 3580 1484　(during office hours)
+			<br aria-hidden="true">Fax : (852) 3580 1485
+	 	</div> 
+		<div class="border_goldern border ui-corner-all outer_border_margin_style">
+			<H3 style="color:red; margin-top:5px; margin-bottom:5px;">404 找不到網頁</H3>
+			系統未能找到你所要求的網頁檔案。如有查詢，請聯絡以下香港海關辦公室：
+				<br aria-hidden="true">
+				<br aria-hidden="true">九龍九龍灣宏光道39號宏天廣場35樓3501室
+				<br aria-hidden="true">香港海關
+				<br aria-hidden="true">貴金屬及寶石交易商監理科
+				<br aria-hidden="true">
+				<br aria-hidden="true">電話 :  (852) 3580 1483 / 3580 1484　（辦公時間內）
+				<br aria-hidden="true">傳真 :  (852) 3580 1485	
+		</div> 
+		<div class="border_goldern border ui-corner-all outer_border_margin_style">
+			<H3 style="color:red; margin-top:5px; margin-bottom:5px;">404 找不到网页</H3>
+			系统未能找到你所要求的网页档案。如有查询，请联络以下香港海关办公室：
+			<br aria-hidden="true">
+			<br aria-hidden="true">九龙九龙湾宏光道39号宏天广场35楼3501室
+			<br aria-hidden="true">香港海关
+			<br aria-hidden="true">贵金属及宝石交易商监理科
+			<br aria-hidden="true">
+			<br aria-hidden="true">电话 : (852) 3580 1483 / 3580 1484　（办公时间内）
+			<br aria-hidden="true">传真 : (852) 3580 1485	
+		</div>
+	
+</body>
+</html>
